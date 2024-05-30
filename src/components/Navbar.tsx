@@ -117,7 +117,7 @@ const Navbar = () => {
               className="absolute top-14 bg-white left-[-340px]  w-[400px] 
              shadow-2xl rounded-2xl  overflow-y-hidden child flex flex-col gap-2 p-[16px]"
             >
-              <div className="absolute top-0 left-0 bg-yellow-100 h-[200px]"></div>
+              <div className="absolute top-0 left-0 bg-yellow-100  h-[200px]"></div>
               <div className="flex flex-row justify-between items-center">
                 <h1>{productsInCart.length} sản phẩm</h1>
                 <h1

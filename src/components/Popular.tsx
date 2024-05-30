@@ -13,6 +13,8 @@ const Popular = () => {
     productsList = products.slice(5, 10);
   }
 
+  console.log(productsList)
+
   return (
     <div className="flex flex-col justify-center items-center w-[1200px] h-full">
     <div className="w-full my-[100px] ">

@@ -13,7 +13,7 @@ import "./animation.css";
 const App = () => {
   const productsInCart: [productsInCart] = useSelector(useProductSelector);
   const nodeRef = useRef(null);
-  const [isAuthen, setIsAuthen] = useState(false);
+
   useEffect(() => {
     if (productsInCart.length > 0) {
       setShowNotification(true);
@@ -54,7 +54,7 @@ const App = () => {
 
 
 
-      <Navbar setIsAuthen={setIsAuthen} />
+      <Navbar  />
 
       <Routes>
         <Route path="/" element={<Home />}/>

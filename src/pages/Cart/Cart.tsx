@@ -21,6 +21,7 @@ const Cart = () => {
   };
 
   const handleChecked = (title: string) => {
+    setTotal("1.490.000")
     console.log(title);
   };
 
@@ -74,7 +75,7 @@ const Cart = () => {
           </div>
         </div>
       </div>
-      {/* TOTAL */}
+      {/* TOTAL */} 
 
       <div className="flex flex-col w-[60%] ">
         {/* BANNER */}

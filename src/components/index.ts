@@ -9,7 +9,7 @@ import OutstandingFeature from "./OutstandingFeature";
 import ShowProductList from "./ShowProductList";    
 import ReviewProduct from "./ReviewProduct";
 import NotificationAddCart from "./NotificationAddCart";
-import PaymentMethods from "./PaymentMethods";
+
 
 export {
   Navbar,
@@ -23,5 +23,4 @@ export {
   ShowProductList,
   ReviewProduct,
   NotificationAddCart ,
-  PaymentMethods
 };
