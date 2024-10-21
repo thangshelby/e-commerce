@@ -1,0 +1,27 @@
+.fade-enter-active {
+  animation: cart_notification_in 100ms ease-in-out;
+}
+.fade-exit {
+    opacity: 1;
+}
+.fade-exit-active {
+  transition: cart_notification_out 100ms ease-in-out;
+}
+
+@keyframes cart_notification_in {
+  0% {
+    transform: translateX(280px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes cart_notification_out {
+  0% {
+    transform: translateX(0px) rotate(30deg);
+  }
+  100% {
+    transform: translateX(280px);
+  }
+}
